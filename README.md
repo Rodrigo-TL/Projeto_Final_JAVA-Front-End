@@ -21,7 +21,7 @@ Como Executar o Projeto Localmente
 1. Certifique-se de que o repositório do Backend está rodando na porta `8080`.
 2. Faça o clone deste repositório:
 ```bash
-git clone https://github.com
+git clone [https://github.com](https://github.com/Rodrigo-TL/Projeto_Final_JAVA-Front-End.git)
 ```
 3. Navegue até a pasta do projeto.
 4. Abra o arquivo `index.html` diretamente em qualquer navegador web.
