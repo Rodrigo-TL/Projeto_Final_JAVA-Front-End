@@ -10,7 +10,7 @@ function buscarCepExterno() {
     }
 
     // CORREÇÃO: Sintaxe corrigida de forma segura para evitar erros de leitura da URL
-    fetch("https://viacep.com.br" + cep + "/json/")
+        fetch("https://viacep.com.br" + cep + "/json/")
         .then(response => response.json())
         .then(data => {
             if (data.erro) {
