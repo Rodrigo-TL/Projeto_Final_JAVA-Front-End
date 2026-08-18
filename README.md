@@ -17,7 +17,7 @@ A interface permite que o usuário informe um CEP para buscar automaticamente os
 1. Certifique-se de que o repositório do Backend está rodando na porta `8080`.
 2. Faça o clone deste repositório:
 ```bash
-git clone https://github.com/Rodrigo-TL/Projeto_Final_JAVA_Front-End.git
+git clone https://github.com/Rodrigo-TL/Projeto_Final_JAVA-Front-End.git
 ```
 3. Navegue até a pasta do projeto.
 4. Abra o arquivo `index.html` diretamente em qualquer navegador web.
