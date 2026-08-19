@@ -2,7 +2,7 @@ const API_URL = "http://localhost:8080/api/enderecos";
 
 // 1. Busca o CEP na API Pública Externa (ViaCEP)
 function buscarCepExterno() {
-    const cep = document.getElementById("cep").value.replace(/\D/g, "");
+    const cep = document.getElementById("cep").value.trim();
     
     if (cep.length !== 8) {
         alert("Por favor, digite um CEP válido com 8 números.");
@@ -10,7 +10,7 @@ function buscarCepExterno() {
     }
 
     // CORREÇÃO: Sintaxe corrigida de forma segura para evitar erros de leitura da URL
-        fetch("https://viacep.com.br" + cep + "/json/")
+        fetch("https://viacep.com.br/ws/" + cep + "/json/")
         .then(response => response.json())
         .then(data => {
             if (data.erro) {
